@@ -2,7 +2,7 @@
 
 {% block content %}
     <h1>Sign In</h1>
-        <form action="" method=POST></form>
+        <form action="" method=POST>
             {% csrf_token %}   
     <form>
         <div class="mb-3">
@@ -13,7 +13,6 @@
         <label for="exampleInputPassword1" class="form-label">Password</label>
         <input type="password" class="form-control" name="password">
         <br/>
-        <button type="submit" class="btn btn-primary">Submit</button>
         <input type="submit" value="Submit" class="btn btn-secondary">
     </form>
 {% endblock %}  
