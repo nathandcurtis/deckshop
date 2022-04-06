@@ -133,6 +133,12 @@ ENV/
 env.bak/
 venv.bak/
 
+bin/
+include/
+lib/
+lib64/
+pyenv.cfg
+
 # Spyder project settings
 .spyderproject
 .spyproject
