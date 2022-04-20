@@ -4,6 +4,7 @@ beautifulsoup4==4.10.0
 dacite==1.6.0
 Django==4.0.3
 django-bootstrap-v5==1.0.11
+django-environ==0.8.1
 gunicorn==20.1.0
 pokemontcgsdk==3.4.0
 soupsieve==2.3.1
